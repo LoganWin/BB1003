@@ -14,6 +14,6 @@ for word in str.split(' '):
         dic[word] += 1
     else:
         dic[word]= 1
-        
+
 for key, value in dic.items():
     print (key, value)
